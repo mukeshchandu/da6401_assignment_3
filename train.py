@@ -42,11 +42,6 @@ def greedy_decode(
 ) -> torch.Tensor:
   raise NotImplementedError
 
-
-# ══════════════════════════════════════════════════════════════════════
-#   BLEU EVALUATION  
-# ══════════════════════════════════════════════════════════════════════
-
 def evaluate_bleu(
     model: Transformer,
     test_dataloader: DataLoader,
